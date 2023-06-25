@@ -1,6 +1,7 @@
 @import "./variaveis.css";
 
 body {
+  max-width: 1200px;
   margin: 0px;
   padding: 0px;
   background: var(--cor-fundo-claro);
