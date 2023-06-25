@@ -1,0 +1,86 @@
+/*redefinir estilos*/
+button {
+  all: unset;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*fontes*/
+:root {
+  --ff-primaria: "Roboto", sans-serif;
+  --ff-secondaria: "Open Sans", sans-serif;
+  --ff-terciaria: Arial, Helvetica, sans-serif;
+  --spacing: 0.1rem;
+}
+
+/*tamanho fontes*/
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+/*cores*/
+:root {
+  --cor-branca: #fff;
+  --cor-preta: #000;
+  --cor-fundo-claro: #f2f2f2;
+  --cor-fundo-escuro: #121212;
+  --cor-azul-escuro: #04101a;
+}
+
+/*sombras*/
+:root {
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*transições*/
+:root {
+  --transition: all 0.3s linear;
+}
+
+/*@media*/
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
